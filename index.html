@@ -7,47 +7,48 @@
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to the AI Portuguese Poem Generator</h1>
-    </header>
+    <div class="container"></div>
+        <header>
+            <h1>Welcome to the AI Portuguese Poem Generator</h1>
+        </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the French poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Quantas vezes a gente, em busca da ventura,
-        <br />
-        Procede tal e qual o avozinho infeliz:
-        <br />
-        Em vão, por toda parte, os óculos procura
-        <br />
-        Tendo-os na ponta do nariz!
-      </div>
-    </main>
+        <main>
+            <form>
+                <input
+                type="text"
+                placeholder="Enter the topic of the poem"
+                autofocus
+                required
+                autocomplete="off"
+                class="instructions"/>
+                <input type="submit" class="submit-button" />
+            </form>
+            <div class="poem">
+            Quantas vezes a gente, em busca da ventura,
+            <br />
+            Procede tal e qual o avozinho infeliz:
+            <br />
+            Em vão, por toda parte, os óculos procura
+            <br />
+            Tendo-os na ponta do nariz!
+            </div>
+        </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/filipanpita/" target="_blank">Filipa Pita</a>
-      and is
-      <a
-        href="https://github.com/filipanpita/SheCodes_Plus_AI_Add-on"
-        target="_blank"
-      >
+        <footer>
+        This AI project was coded by
+        <a href="https://github.com/filipanpita/" target="_blank">Filipa Pita</a>
+        and is
+        <a
+            href="https://github.com/filipanpita/SheCodes_Plus_AI_Add-on"
+        target="_blank">
         open-sourced on GitHub</a
-      >
-      and is
-      <a href="https://ai-portuguese-poems.netlify.app/" target="_blank"
+        >
+        and is
+        <a href="https://ai-portuguese-poems.netlify.app/" target="_blank"
         >hosted on Netlify</a
-      >.
-    </footer>
+        >.
+        </footer>
+    </div>
 
     <script src="src/index.js"></script>
   </body>
