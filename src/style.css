@@ -54,7 +54,8 @@ form {
 }
 
 .submit-button {
-  margin: 10px 0px 10px 0px;
+  margin-left: 10px;
+  margin-right: 10px;
   background: #885df1;
   color: white;
   border: none;
